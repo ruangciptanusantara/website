@@ -1,0 +1,281 @@
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0 16px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-footer {
+        padding-left: 50px;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0 9px;
+        font-size: 15px;
+    }
+
+    .text-bg h1 {
+        font-size: 56px;
+    }
+
+    .text-bg span {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .titlepage h2 {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .input-group-text {
+        font-size: xx-small;
+    }
+
+    .about-footer {
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+
+    .icon-footer {
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .header {
+        padding: 50px 50px;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .text-bg h1 {
+        font-size: 70px;
+        line-height: 63px;
+        padding-bottom: 28px;
+    }
+
+    .titlepage h2 {
+        font-size: 37px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .input-group-text {
+        font-size: smaller;
+    }
+
+    .form-control {
+        font-size: smaller;
+    }
+
+    .about-footer {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .contact-footer {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .header {
+        padding: 50px 50px;
+    }
+
+    .text-bg h1 {
+        font-size: 51px;
+    }
+
+    .text-bg span {
+        font-size: 33px;
+    }
+
+    .text_img {
+        margin-top: 20px;
+    }
+
+    #banner1 .carousel-control-next,
+    #banner1 .carousel-control-prev {
+        top: 100%;
+    }
+
+    #banner1 a.carousel-control-prev {
+        left: 17%;
+    }
+
+    .titlepage h2 {
+        font-size: 27px;
+    }
+
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .navigation .navbar-collapse {
+        border-radius: 15px;
+        background: #fbca47;
+        padding: 20px;
+        margin-top: 55px;
+        position: absolute;
+        width: 100%;
+        color: white;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding: 0;
+    }
+
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    .margin_bottom1 {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .input-group-text {
+        font-size: xx-small;
+    }
+
+    .form-control {
+        font-size: xx-small;
+    }
+
+    .about-footer {
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
+    .icon-footer {
+        padding-top: 20px;
+    }
+
+    .chatbot .card1 {
+        margin: 10px;
+        width: 80vw;
+    }
+
+    .chatbot .card1 #message-section .message {
+        font-size: 2.5vw;
+    }
+
+    .anyApps {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .maintenance img {
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .logo img {
+        width: 180px;
+    }
+
+    .header {
+        padding: 30px 15px;
+    }
+
+    .white_bg {
+        padding: 40px 6px;
+    }
+
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+
+    .text-bg span {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .text-bg h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .titlepage h2 {
+        font-size: 19px;
+        line-height: 15px;
+    }
+
+    .text_img {
+        margin-top: 0px;
+    }
+
+    .text_img figure img {
+        width: 350px;
+        height: 460px;
+    }
+
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -84px;
+    }
+
+    .navigation .navbar-collapse {
+        border-radius: 15px;
+        background: #fbca47;
+        padding: 10px;
+        margin-top: 90px;
+        position: static;
+        color: white;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: white;
+    }
+
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+
+    .white_bg {
+        border-radius: 30px;
+    }
+}
