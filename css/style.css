@@ -20,19 +20,25 @@ body {
 .header {
      width: 100%;
      padding: 73px 80px;
-     background: url(../images/background3.jpg);
+     background: #ffffff;
      background-size: 100% 100%;
      background-repeat: no-repeat;
 }
 
 .white_bg {
-     background: #ffffffec;
+     background: #ffffff;
+     border-radius: 10px;
+     padding: 40px 35px;
+}
+
+.black_bg {
+     background: #b9b9b9;
      border-radius: 10px;
      padding: 40px 35px;
 }
 
 .white_bg_inside {
-     background: #ffffffbc;
+     background: #1d46994b;
      border-radius: 20px;
      padding: 30px 20px;
  }
@@ -254,7 +260,6 @@ hr {
      color: #4a4a49;
      text-align: left;
      display: inline-block;
-     
 }
 
 .home_button_read_more {
@@ -272,15 +277,15 @@ hr {
      margin-top: 30px;
  }
 
- .home_button_read_more:hover {
+.home_button_read_more:hover {
      background-color: #0b6100 !important;
  }
 
- .home_button_read_more img {
+.home_button_read_more img {
      width: 15%; 
  }
 
- .app_banner_main .text_img_list_apps figure img{
+.app_banner_main .text_img_list_apps figure img{
      text-align: center;
      width: 300px;
      height: 200px;
@@ -401,13 +406,11 @@ hr {
      margin-top: 6%;
 }
 
-.card img {
-     
+.card img {     
      height: 244px;
      /* border-radius: 20px 20px 0px 0px; */
      object-fit: contain;
-     background-color: white;
-     
+     background-color: white;     
 }
 
 .card-body p {
